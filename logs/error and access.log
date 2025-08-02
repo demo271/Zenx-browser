@@ -1,0 +1,4 @@
+import logging
+
+logging.basicConfig(filename='logs/access.log', level=logging.INFO)
+logging.error("Something went wrong")
